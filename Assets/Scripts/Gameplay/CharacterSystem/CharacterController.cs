@@ -46,10 +46,10 @@ public class CharacterController : MonoBehaviour, IDamageable
     {
         //if (CanTransitionTo(CharacterState.IDLE))
         //{
-            rb.velocity = Vector3.zero;
-            Debug.Log("Setting character idle");
-            SetCurrentCharacterState(CharacterState.IDLE);
-            characterAvatar.SetIdle();
+        rb.velocity = Vector3.zero;
+        Debug.Log("Setting character idle");
+        SetCurrentCharacterState(CharacterState.IDLE);
+        characterAvatar.SetIdle();
         //}
     }
 

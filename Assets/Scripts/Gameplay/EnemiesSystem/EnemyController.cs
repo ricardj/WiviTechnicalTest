@@ -50,14 +50,7 @@ public class EnemyController : MonoBehaviour, IDamageable, IBounceable
 
     }
 
-    //public void OnTriggerEnter(Collider other)
-    //{
-    //    IBouncer bouncer = other.gameObject.GetComponent<IBouncer>();
-    //    if (bouncer != null)
-    //    {
-    //        bouncer.Bounce(this);
-    //    }
-    //}
+
     public void CheckIsBouncer(Collision collision)
     {
         IBouncer bouncer = collision.gameObject.GetComponent<IBouncer>();
